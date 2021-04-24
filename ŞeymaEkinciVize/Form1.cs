@@ -6,6 +6,8 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
+using System.Xml;
 using System.Windows.Forms;
 
 namespace ŞeymaEkinciVize
@@ -15,6 +17,17 @@ namespace ŞeymaEkinciVize
         public Form1()
         {
             InitializeComponent();
+
+
+
+
+
+            
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            MessageBox.Show("uyarı ver");
         }
     }
 }
