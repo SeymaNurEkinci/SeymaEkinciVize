@@ -14,6 +14,7 @@ namespace ŞeymaEkinciVize
 {
     public partial class Form1 : Form
     {
+        string hava_durumu_link = "https://www.mgm.gov.tr/FTPDATA/analiz/sonSOA.xml";
         public Form1()
         {
             InitializeComponent();
@@ -21,20 +22,15 @@ namespace ŞeymaEkinciVize
 
         }
 
+        private const string api = "60a369421209b65fd1ec279338e6d400";
+
+
         private void timer1_Tick(object sender, EventArgs e)
         {
             MessageBox.Show("uyarı ver");
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            
-            }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            XDocument hava = XDocument.Load(https://www.mgm.gov.tr/FTPDATA/analiz/sonSOA.xml);
-        }
+        
     }
 
     
