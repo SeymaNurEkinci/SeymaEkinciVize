@@ -37,9 +37,9 @@ namespace ŞeymaEkinciVize
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(69, 63);
+            this.button3.Location = new System.Drawing.Point(69, 89);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.Size = new System.Drawing.Size(91, 34);
             this.button3.TabIndex = 0;
             this.button3.Text = "button3";
             this.button3.UseVisualStyleBackColor = true;
@@ -47,19 +47,19 @@ namespace ŞeymaEkinciVize
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(69, 130);
+            this.button4.Location = new System.Drawing.Point(69, 201);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.Size = new System.Drawing.Size(91, 32);
             this.button4.TabIndex = 1;
-            this.button4.Text = "button4";
+            this.button4.Text = "ANKARA";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(69, 198);
+            this.button5.Location = new System.Drawing.Point(69, 307);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 23);
+            this.button5.Size = new System.Drawing.Size(91, 35);
             this.button5.TabIndex = 2;
             this.button5.Text = "button5";
             this.button5.UseVisualStyleBackColor = true;
@@ -69,14 +69,14 @@ namespace ŞeymaEkinciVize
             // 
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 16;
-            this.listBox1.Location = new System.Drawing.Point(164, 45);
+            this.listBox1.Location = new System.Drawing.Point(235, 47);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(350, 228);
+            this.listBox1.Size = new System.Drawing.Size(525, 324);
             this.listBox1.TabIndex = 3;
             // 
             // Form1
             // 
-            this.ClientSize = new System.Drawing.Size(567, 363);
+            this.ClientSize = new System.Drawing.Size(888, 497);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
