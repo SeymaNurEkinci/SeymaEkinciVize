@@ -35,7 +35,13 @@ namespace ŞeymaEkinciVize
             XDocument havadurumu = XDocument.Load(baglanti);
             var sicaklik = havadurumu.Descendants("temperature").ElementAt(0).Attribute("value").Value;
             label_drc.Text = sicaklik.ToString() + "ºC";
-            var durum = havadurumu.Descendants("clouds").ElementAt(0).Attribute("value").Value;
+            var durum = havadurumu.Descendants("clouds").ElementAt(0).Attribute("name").Value;
+            label_drm.Text = durum.ToString();
+            if (durum.Contains("clouds") == true)
+            {
+                picture_bulutlu.Visible = true;
+            }
+           
 
         }
     }

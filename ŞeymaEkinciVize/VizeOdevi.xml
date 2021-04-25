@@ -2,13 +2,7 @@
 
 <havadurumu>
 	<durum>
-		String URLString = "https://www.mgm.gov.tr/FTPDATA/analiz/sonSOA.xml";
-		XmlTextReader reader = new XmlTextReader (URLString);
-		while (reader.Read())
-		{
-		Console.WriteLine(reader.Name);
-		}
-		Console.ReadLine();
+		
 
 
 	</durum>
