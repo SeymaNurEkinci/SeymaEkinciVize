@@ -29,63 +29,61 @@ namespace ŞeymaEkinciVize
         /// </summary>
         private void InitializeComponent()
         {
-            this.label_drc = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label_drm = new System.Windows.Forms.Label();
-            this.picture_bulutlu = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.picture_bulutlu)).BeginInit();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.listBox1 = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
-            // label_drc
+            // button3
             // 
-            this.label_drc.AutoSize = true;
-            this.label_drc.Location = new System.Drawing.Point(83, 53);
-            this.label_drc.Name = "label_drc";
-            this.label_drc.Size = new System.Drawing.Size(46, 17);
-            this.label_drc.TabIndex = 0;
-            this.label_drc.Text = "label4";
+            this.button3.Location = new System.Drawing.Point(69, 63);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.TabIndex = 0;
+            this.button3.Text = "button3";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
-            // label5
+            // button4
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(83, 225);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(46, 17);
-            this.label5.TabIndex = 1;
-            this.label5.Text = "label5";
+            this.button4.Location = new System.Drawing.Point(69, 130);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.TabIndex = 1;
+            this.button4.Text = "button4";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
-            // label_drm
+            // button5
             // 
-            this.label_drm.AutoSize = true;
-            this.label_drm.Location = new System.Drawing.Point(83, 143);
-            this.label_drm.Name = "label_drm";
-            this.label_drm.Size = new System.Drawing.Size(46, 17);
-            this.label_drm.TabIndex = 3;
-            this.label_drm.Text = "label4";
+            this.button5.Location = new System.Drawing.Point(69, 198);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(75, 23);
+            this.button5.TabIndex = 2;
+            this.button5.Text = "button5";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
-            // picture_bulutlu
+            // listBox1
             // 
-            this.picture_bulutlu.Image = global::ŞeymaEkinciVize.Properties.Resources._47528110_sunny_weather_condition;
-            this.picture_bulutlu.Location = new System.Drawing.Point(278, 94);
-            this.picture_bulutlu.Name = "picture_bulutlu";
-            this.picture_bulutlu.Size = new System.Drawing.Size(128, 115);
-            this.picture_bulutlu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picture_bulutlu.TabIndex = 2;
-            this.picture_bulutlu.TabStop = false;
-            this.picture_bulutlu.Visible = false;
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.ItemHeight = 16;
+            this.listBox1.Location = new System.Drawing.Point(164, 45);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(350, 228);
+            this.listBox1.TabIndex = 3;
             // 
             // Form1
             // 
             this.ClientSize = new System.Drawing.Size(567, 363);
-            this.Controls.Add(this.label_drm);
-            this.Controls.Add(this.picture_bulutlu);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label_drc);
+            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.button5);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.button3);
             this.Name = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.picture_bulutlu)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -97,10 +95,10 @@ namespace ŞeymaEkinciVize
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Label label_drc;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.PictureBox picture_bulutlu;
-        private System.Windows.Forms.Label label_drm;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.ListBox listBox1;
     }
 }
 
