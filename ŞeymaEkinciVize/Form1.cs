@@ -19,15 +19,29 @@ namespace ŞeymaEkinciVize
             InitializeComponent();
 
 
-
-
-
-            
         }
 
         private void timer1_Tick(object sender, EventArgs e)
         {
             MessageBox.Show("uyarı ver");
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            
+            }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            XDocument hava = XDocument.Load(https://www.mgm.gov.tr/FTPDATA/analiz/sonSOA.xml);
+        }
     }
-}
+
+    
+        
+
+        
+    }
+
+
+    
