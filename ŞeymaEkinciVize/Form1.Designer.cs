@@ -29,20 +29,20 @@ namespace ŞeymaEkinciVize
         /// </summary>
         private void InitializeComponent()
         {
-            this.label4 = new System.Windows.Forms.Label();
+            this.label_drc = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // label4
+            // label_drc
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(83, 53);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(46, 17);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "label4";
+            this.label_drc.AutoSize = true;
+            this.label_drc.Location = new System.Drawing.Point(83, 53);
+            this.label_drc.Name = "label_drc";
+            this.label_drc.Size = new System.Drawing.Size(46, 17);
+            this.label_drc.TabIndex = 0;
+            this.label_drc.Text = "label4";
             // 
             // label5
             // 
@@ -66,8 +66,9 @@ namespace ŞeymaEkinciVize
             this.ClientSize = new System.Drawing.Size(637, 363);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label_drc);
             this.Name = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -82,7 +83,7 @@ namespace ŞeymaEkinciVize
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label_drc;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.PictureBox pictureBox1;
     }

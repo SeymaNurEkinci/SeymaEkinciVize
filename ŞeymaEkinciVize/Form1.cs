@@ -23,14 +23,21 @@ namespace ŞeymaEkinciVize
         }
 
         private const string api = "60a369421209b65fd1ec279338e6d400";
-
+        private const string baglanti = "http://api.openweathermap.org/data/2.5/weather?q=Yalova&mode=xml&lang=tr&units=metric&appid=" + api;
 
         private void timer1_Tick(object sender, EventArgs e)
         {
             MessageBox.Show("uyarı ver");
         }
 
-        
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            XDocument havadurumu = XDocument.Load(baglanti);
+            var sicaklik = havadurumu.Descendants("temperature").ElementAt(0).Attribute("value").Value;
+            label_drc.Text = sicaklik.ToString() + "ºC";
+            var durum = havadurumu.Descendants("clouds").ElementAt(0).Attribute("value").Value;
+
+        }
     }
 
     
